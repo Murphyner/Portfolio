@@ -1,7 +1,7 @@
 
 const Heading: React.FC = () => {
   return (
-    <div className="flex flex-col gap-3 text-white pt-20 ">
+    <div className="flex flex-col gap-3 p-3 lg:p-0  text-white lg:pt-20 ">
       <div>
         <h2 className="text-4xl font-bold font-grotesk ">
             Agshin Mustafazade

@@ -39,9 +39,10 @@ const Details: React.FC<setActive> = ({setDetails}) => {
         return () => observer.disconnect();
     }, [setDetails, detailtRef.current]);
   return (
-      <div className="py-5">
+      <div className="p-3 lg:p-0 lg:py-5">
           <div ref={detailtRef} id="details" className="flex flex-col">
-              <div className="text-white font-Poppin opacity-50 text-sm flex flex-col gap-3">
+              <div className="text-white font-Poppin opacity-50  text-sm flex flex-col gap-3">
+                  <h2 className="text-xl font-Poppin font-bold">My path</h2>
                   <p>"I am a passionate web developer with a robust background in modern programming languages and frameworks. Over time, I’ve built proficiency in <strong>JavaScript</strong> and mastered libraries and frameworks like <strong>React</strong>, <strong>Redux</strong>, and <strong>jQuery</strong>, which allow me to create dynamic and highly interactive user experiences. My design skills are supported by tools such as <strong>Figma</strong>, where I bring UI concepts to life, along with extensive use of <strong>Tailwind CSS</strong>, <strong>Bootstrap</strong>, and <strong>Sass</strong> for responsive, visually appealing interfaces.</p>
 
                   <p>My learning journey is continuous, and I’m always excited to dive into new tools and technologies. Currently, I am expanding my skill set by learning <strong>GSAP</strong> to create advanced animations, <strong>TypeScript</strong> for better code scalability, <strong>Angular</strong> for powerful frontend applications, and <strong>Node.js</strong> to gain backend development capabilities. With each new technology, I am focused on developing versatile skills that keep me adaptable and ready for innovative challenges in the tech field."</p>

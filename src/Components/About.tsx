@@ -34,7 +34,7 @@ const About: React.FC<setActive> = ({setAbout}) => {
 
     return (
         <div id="about" ref={aboutRef} className="text-white font-Poppin  text-sm">
-            <div className="flex flex-col gap-3 px-3 opacity-50">
+            <div className="flex flex-col gap-3 p-3 lg:px-3 opacity-50">
                 <p>
                     Specializing in <strong>JavaScript</strong>, <strong>HTML</strong>, <strong>React</strong>, and <strong>CSS</strong>, I have a solid background in developing user-friendly and functional web applications. I also have experience with <strong>TypeScript</strong> and <strong>JSON Server</strong>, which help me create reliable and scalable solutions. I use <strong>React</strong> to build interactive user interfaces, making sure that users have a smooth experience across different devices.
                 </p>

@@ -39,14 +39,14 @@ const App: React.FC = () => {
           transform: `translate(${position.x - 205}px, ${position.y - 205}px)`,
         }}
       />
-      <div className="relative w-[80%] mx-auto">
+      <div className="relative w-[95%] lg:w-[80%] mx-auto">
         <div className="flex flex-col lg:flex-row pt-8">
           <div className="lg:fixed  flex-col gap-20 flex">
             <Heading />
             <Sections about={about} projects={projects} details={details} />
             <Social />
           </div>
-          <div className="absolute top-28 w-full lg:w-[50%] right-0">
+          <div className="lg:absolute pt-4 lg:pt-0 top-28 w-full lg:w-[50%] right-0">
             <div className="flex flex-col gap-14">
               <About setAbout={setAbout}  />
               <Projects setProjects={setProjects}/>

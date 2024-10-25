@@ -7,7 +7,7 @@ const Sections: React.FC<activesection> = ({about , projects , details}) => {
   console.log('active' , about);
   
   return (
-    <div className="flex text-white gap-6 font-Poppin cursor-pointer  flex-col opacity-60 font-medium text-[12px] tracking-widest w-[23%]">
+    <div className="hidden lg:flex text-white gap-6 font-Poppin cursor-pointer  flex-col opacity-60 font-medium text-[12px] tracking-widest w-[23%]">
       <div className="flex items-center group  gap-3">
         <hr className={`w-[25px] transition-all ease-in-out duration-500 ${about && 'w-[65px]'}`} /> ABOUT
       </div>
