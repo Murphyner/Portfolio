@@ -6,6 +6,7 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Details from './Components/Details';
 import Social from './Components/Social';
+import Footer from './Components/Footer';
 
 const App: React.FC = () => {
   const [about, setAbout] = useState(true);
@@ -43,7 +44,7 @@ const App: React.FC = () => {
         <div className="flex flex-col lg:flex-row pt-8">
           <div className="lg:fixed  flex-col gap-20 flex">
             <Heading />
-            <Sections about={about} projects={projects} details={details} />
+            <Sections setAbout={setAbout} about={about} projects={projects} details={details} />
             <Social />
           </div>
           <div className="lg:absolute pt-4 lg:pt-0 top-28 w-full lg:w-[50%] right-0">
@@ -54,6 +55,7 @@ const App: React.FC = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
