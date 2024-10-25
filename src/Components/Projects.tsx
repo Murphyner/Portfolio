@@ -35,35 +35,35 @@ const Projects: React.FC<setActive> = ({setProjects}) => {
 
     const projects = [
         {
-            time: '/src/assets/images/netflix.png',
+            time: '/public/assets/images/netflix.png',
             title: 'Netflix website clone',
             link: "https://netflixclone-tau-rose.vercel.app/",
             description: "This Netflix clone app offers a smooth login experience, allowing users to explore and enjoy a wide range of movies and TV shows. Built with modern web technologies, it delivers a sleek, responsive design and an intuitive user interface, closely resembling the original Netflix platform.",
             technologies: ["JavaScript", "TailwindCSS" , 'React' , 'Redux' , "Firebase" , "React-Router" ]
         },
         {
-            time: "/src//assets/images/starbucks.png",
+            time: "/public/assets/images/starbucks.png",
             title: 'Starbucks website clone',
             link: "https://starbucks-silk.vercel.app/",
             description: "This Starbucks clone offers users a visually stunning and interactive experience, mirroring the official site’s aesthetic. Built with modern web technologies, it features a responsive layout for seamless browsing, smooth animations for an engaging user experience, and efficient state management for handling user interactions. The application is designed for performance and optimized for various devices.",
             technologies: ["JavaScript", "TailwindCSS"]
         },
         {
-            time: "/src/assets/images/umico.png",
+            time: "/public/assets/images/umico.png",
             title: 'Umico website clone',
             link: "https://umico.vercel.app/",
             description: "Umico is an e-commerce platform designed for a seamless online shopping experience. Featuring a responsive design and intuitive navigation, it enables users to browse products, perform efficient searches, and complete secure checkouts—all built with modern web technologies to ensure performance and usability.",
             technologies: ["JavaScript", "React", "Vite" ,"TailwindCSS"]
         },
         {
-            time: "/src//assets/images/newsapp.png",
+            time: "/public/assets/images/newsapp.png",
             title: 'News website clone',
             link: "https://newsapp-rust-eight.vercel.app/",
             description: "Stay up-to-date with global headlines through this dynamic NewsApp. Built with modern web frameworks, it features a responsive, category-based news feed that keeps users informed on trending topics. With an intuitive interface, smooth navigation, and an admin dashboard at /admin for managing content, this app ensures a seamless experience for both users and administrators.",
             technologies: ["React", "Redux", "Redux-thunk" ,"JavaScript", "TailwindCSS"]
         },
         {
-            time: "/src/assets/images/mars.png",
+            time: "/public/assets/images/mars.png",
             title: 'Mars website clone',
             link: "https://mars-teal.vercel.app/",
             description: "This Mars exploration app leverages modern web technologies to provide an interactive, immersive experience of the Red Planet. With responsive design, real-time data, and intuitive navigation, users can explore Mars' surface, track missions, and access planetary insights in a sleek, user-friendly interface.",

@@ -44,7 +44,7 @@ const About: React.FC<setActive> = ({setAbout}) => {
                 <p>
                     My strong <strong>problem-solving skills</strong> help me address challenges and find practical solutions that improve functionality and user satisfaction. By working closely with teams, I can bring together different ideas and perspectives, contributing to the overall success of the projects I am involved in.
                 </p>
-                <a href="/src/assets/images/work.pdf" download  className="flex font-Poppin gap-2 items-center">
+                <a href="/public/assets/images/work.pdf" download  className="flex font-Poppin gap-2 items-center">
                     <FaDownload /> Download cv
                 </a>
             </div>
