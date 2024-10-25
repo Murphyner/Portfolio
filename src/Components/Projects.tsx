@@ -35,14 +35,14 @@ const Projects: React.FC<setActive> = ({setProjects}) => {
 
     const projects = [
         {
-            time: '/public/assets/images/netflix.png',
+            time: 'public/assets/images/netflix.png',
             title: 'Netflix website clone',
             link: "https://netflixclone-tau-rose.vercel.app/",
             description: "This Netflix clone app offers a smooth login experience, allowing users to explore and enjoy a wide range of movies and TV shows. Built with modern web technologies, it delivers a sleek, responsive design and an intuitive user interface, closely resembling the original Netflix platform.",
             technologies: ["JavaScript", "TailwindCSS" , 'React' , 'Redux' , "Firebase" , "React-Router" ]
         },
         {
-            time: "/public/assets/images/starbucks.png",
+            time: "public/assets/images/starbucks.png",
             title: 'Starbucks website clone',
             link: "https://starbucks-silk.vercel.app/",
             description: "This Starbucks clone offers users a visually stunning and interactive experience, mirroring the official site’s aesthetic. Built with modern web technologies, it features a responsive layout for seamless browsing, smooth animations for an engaging user experience, and efficient state management for handling user interactions. The application is designed for performance and optimized for various devices.",
