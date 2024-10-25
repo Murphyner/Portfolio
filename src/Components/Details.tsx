@@ -4,6 +4,8 @@ const skills = [
     { name: "CSS, Sass, Bootstrap & TailwindCSS", level: "Advanced", width: "85%" },
     { name: "JavaScript, JQuery", level: "Advanced", width: "80%" },
     { name: "React", level: "Advanced", width: "75%" },
+    { name: "Git", level: "Good", width: "65%" },
+    { name: "Redux", level: "Good", width: "65%" },
     { name: "UI design in Figma", level: "Regular", width: "50%" }
 ];
 
@@ -48,7 +50,7 @@ const Details: React.FC<setActive> = ({setDetails}) => {
                   <p>My learning journey is continuous, and I’m always excited to dive into new tools and technologies. Currently, I am expanding my skill set by learning <strong>GSAP</strong> to create advanced animations, <strong>TypeScript</strong> for better code scalability, <strong>Angular</strong> for powerful frontend applications, and <strong>Node.js</strong> to gain backend development capabilities. With each new technology, I am focused on developing versatile skills that keep me adaptable and ready for innovative challenges in the tech field."</p>
 
               </div>
-              <div>
+              <div className="flex flex-col">
                   <div className="font-Poppin text-sm">
                       <h2 className="text-2xl text-white my-4">Technologies</h2>
                       <div className="space-y-4">
@@ -67,6 +69,10 @@ const Details: React.FC<setActive> = ({setDetails}) => {
                               </div>
                           ))}
                       </div>
+                  </div>
+                  <div>
+                      <h2 className="text-2xl text-white my-4">Additional Skills</h2>
+                      <p className="text-sm font-Poppin opacity-50 text-white">In addition to my technical expertise, I bring strong teamwork and collaboration skills. I am adept at working within a team, leveraging clear communication, adaptability, and problem-solving to achieve project goals effectively. My ability to share insights, provide constructive feedback, and learn from others helps foster a productive and supportive environment, ensuring successful project outcomes.</p>   
                   </div>
               </div>
           </div>
