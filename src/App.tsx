@@ -40,13 +40,13 @@ const App: React.FC = () => {
         }}
       />
       <div className="relative w-[80%] mx-auto">
-        <div className="flex pt-8">
-          <div className="fixed flex flex-col gap-20">
+        <div className="flex flex-col lg:flex-row pt-8">
+          <div className="lg:fixed  flex-col gap-20 flex">
             <Heading />
             <Sections about={about} projects={projects} details={details} />
             <Social />
           </div>
-          <div className="absolute top-28 w-[50%] right-0">
+          <div className="absolute top-28 w-full lg:w-[50%] right-0">
             <div className="flex flex-col gap-14">
               <About setAbout={setAbout}  />
               <Projects setProjects={setProjects}/>
