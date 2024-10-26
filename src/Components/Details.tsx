@@ -74,6 +74,11 @@ const Details: React.FC<setActive> = ({setDetails}) => {
                       <h2 className="text-2xl text-white my-4">Additional Skills</h2>
                       <p className="text-sm font-Poppin opacity-50 text-white">In addition to my technical expertise, I bring strong teamwork and collaboration skills. I am adept at working within a team, leveraging clear communication, adaptability, and problem-solving to achieve project goals effectively. My ability to share insights, provide constructive feedback, and learn from others helps foster a productive and supportive environment, ensuring successful project outcomes.</p>   
                   </div>
+                  <div className="text-white font-Poppin my-4 text-center lg:text-left font-semibold opacity-50 ">
+                      <p className="text-sm">&copy; {new Date().getFullYear()} Agshin Mustafazade</p>
+                      <p className="text-sm">Built with passion and modern web tech</p>
+                      <p>TEL: +994 (50) 637 15 35</p>
+                  </div>
               </div>
           </div>
       </div>
