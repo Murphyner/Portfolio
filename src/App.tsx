@@ -41,7 +41,7 @@ const App: React.FC = () => {
       />
       <div className="relative w-[95%] lg:w-[80%] mx-auto">
         <div className="flex flex-col lg:flex-row pt-8">
-          <div className="lg:fixed  flex-col gap-20 flex">
+          <div className="lg:fixed  flex-col gap-5 lg:gap-20 flex">
             <Heading />
             <Sections  about={about} projects={projects} details={details} />
             <Social />
