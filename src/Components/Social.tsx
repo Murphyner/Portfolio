@@ -16,7 +16,7 @@ const Social: React.FC = () => {
         <a href="mailto:znagshin@gmail.com" className="opacity-50 transition-all duration-300 hover:opacity-100" >
             <FaEnvelope />
         </a>
-        <a target="_blank" href="https://wa.me/0506371535" className="opacity-50 transition-all duration-300 hover:opacity-100" >
+        <a target="_blank" href="https://wa.me/+9940506371535" className="opacity-50 transition-all duration-300 hover:opacity-100" >
             <FaWhatsapp />
         </a>
       </div>
